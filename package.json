@@ -1,0 +1,27 @@
+{
+  "name": "discord-vip-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord para gerenciar cargos VIP com loja e confirmação de pagamento",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "api": "node api.js"
+  },
+  "author": "Sr_Lucario",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.26.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardosvix-droid/Sr_SurviVille.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bernardosvix-droid/Sr_SurviVille/issues"
+  },
+  "homepage": "https://github.com/bernardosvix-droid/Sr_SurviVille#readme"
+}
