@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "api": "node api.js"
+    "api": "node api.js",
+    "deploy": "node deploy-commands.js",
+    "build": "npm run deploy"
   },
   "author": "Sr_Lucario",
   "license": "MIT",
